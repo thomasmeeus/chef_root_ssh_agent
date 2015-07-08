@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-Template "/etc/sudoers.d/root_ssh_agent" do
+template "/etc/sudoers.d/root_ssh_agent" do
   source "sudoers_root_ssh_agent.erb"
   mode 0440
   owner "root"
